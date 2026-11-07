@@ -1,0 +1,12 @@
+DADOS P3 — SEGURANÇA PÚBLICA 2026
+
+BancoVDE 2026.xlsx: planilha real fornecida pela equipe com dados SINESP VDE / MJSP, janeiro a setembro de 2026 (618.206 linhas).
+vde_2026_extraido.csv: extração tabular feita pela equipe; reproduzível por scripts/rebuild_csv.py.
+painel_2026.csv: recorte estadual UF × indicador × mês, após filtros e defasagens, 2.590 registros, 27 UFs, 12 eventos, fevereiro a setembro de 2026.
+ibge_pop_uf_2026.csv: estimativas de população das 27 UFs, data de referência 01/07/2026, fonte IBGE, POP2026_20261029.pdf.
+
+As séries por vítimas e por ocorrências não são somadas umas às outras entre indicadores.
+O percentil 75 do indicador e a mediana do lag são estimados somente no treino pelos notebooks, não são colunas globais fixas no painel.
+
+Fonte MJSP: https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica
+Fonte IBGE: https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2026/POP2026_20261029.pdf

@@ -1,0 +1,11 @@
+__MACOSX/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
